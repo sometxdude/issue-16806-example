@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.foobar"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "monolith",
+    "baseName": "foobar",
+    "packageName": "com.foobar",
+    "packageFolder": "com/foobar",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzMwOTZhNzMzMjFjMzNiMGQ0ZGE0M2JiMTlmZTc4MWJiYWEwMDMzNjFlZDAxMmUzMzUzYzM0YjBmNDkxNzM2NmYzYjcyN2Q1YWY4YTZkYjhmNjdjYWM0YmFlMDU4MDBhNDIzZmY3N2FkZWI0ODhiZTZlM2JlMzIzNzVhOWM2MmI=",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}

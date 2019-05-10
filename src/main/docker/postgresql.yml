@@ -1,0 +1,11 @@
+version: '2'
+services:
+  foobar-postgresql:
+    image: postgres:11.2
+    # volumes:
+    #     - ~/volumes/jhipster/foobar/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=foobar
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
